@@ -2,33 +2,46 @@
 
 Welcome to your **Interactive JavaScript Learning Repository**!
 
-This project is designed to take you from a complete beginner to a confident JavaScript developer. The concepts are broken down into bite-sized modules, each focusing on a specific topic with clear, commented code examples.
+This project is designed to take you from a complete beginner to a confident JavaScript developer. The concepts are broken down into **4 Levels** for a structured learning path.
 
 ## 📂 Repository Structure
 
-The course is organized into the following modules:
+### 🟢 [01-beginner](./01-beginner)
+Start here if you are new to programming.
+1.  **[01-fundamentals](./01-beginner/01-fundamentals)**: Variables, Data Types.
+2.  **[02-control-flow](./01-beginner/02-control-flow)**: If/Else, Loops.
+3.  **[03-functions](./01-beginner/03-functions)**: Basic Functions, Arrow Functions.
 
-1.  **[01-fundamentals](./01-fundamentals)**: The building blocks (Variables, Data Types).
-2.  **[02-control-flow](./02-control-flow)**: Making decisions (If/Else, Loops).
-3.  **[03-functions](./03-functions)**: Reusable code blocks and Arrow Functions.
-4.  **[04-data-structures](./04-data-structures)**: Organizing data (Arrays, Objects).
-5.  **05-dom-manipulation**: Interacting with web pages (HTML/CSS).
-6.  **06-events**: Handling user clicks and inputs.
-7.  **07-modern-js**: ES6+ features (Destructuring, Modules).
-8.  **08-async-js**: Asynchronous coding (Promises, Fetch API).
-9.  **09-mini-project**: Putting it all together.
+### 🟡 [02-intermediate](./02-intermediate)
+Move here once you understand the basics.
+1.  **[01-data-structures](./02-intermediate/01-data-structures)**: Arrays, Objects.
+2.  **[02-dom-manipulation](./02-intermediate/02-dom-manipulation)**: Changing HTML/CSS.
+3.  **[03-events](./02-intermediate/03-events)**: Handling user clicks.
+4.  **[04-storage](./02-intermediate/04-storage)**: LocalStorage & SessionStorage.
+5.  **[05-mini-project](./02-intermediate/05-mini-project)**: Build a ToDo List App.
 
-## 🚀 How to Use
+### 🔴 [03-expert](./03-expert)
+Advanced concepts for building complex apps.
+1.  **[01-modern-js](./03-expert/01-modern-js)**: ES6+, Destructuring, Modules.
+2.  **[02-async-js](./03-expert/02-async-js)**: Promises, Async/Await, Fetch API.
+3.  **[03-oop](./03-expert/03-oop)**: Classes, Inheritance.
+4.  **[04-functional](./03-expert/04-functional)**: Closures, Currying.
 
-### For Logic Modules (01 - 04, 07 - 08)
-These files contain pure JavaScript logic. You can run them using **Node.js**:
+### 🔵 [04-additional-topics](./04-additional-topics)
+Useful skills for every developer.
+1.  **[01-error-handling](./04-additional-topics/01-error-handling)**: Try/Catch, Throw.
+2.  **[02-regex](./04-additional-topics/02-regex)**: Pattern Matching.
+
+## 🚀 How to Run
+
+### Logic Files
+Run scripts using **Node.js**:
 ```bash
-node 01-fundamentals/variables.js
+node 01-beginner/01-fundamentals/variables.js
 ```
-*Or copy-paste the code into your Browser Console (F12).*
 
-### For Visual Modules (05 - 06, 09)
-These folders contain an `index.html` file. simply **open the HTML file in your browser** to see the code in action!
+### Visual Projects
+Open the `index.html` file in your browser to interact with DOM examples and the Mini Project.
 
 ---
 *Happy Coding!*
