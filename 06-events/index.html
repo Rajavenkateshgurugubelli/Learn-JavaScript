@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS Events</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #output {
+            margin-top: 10px;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Event Handling</h1>
+
+    <!-- Click Event -->
+    <button id="click-btn">Click Me!</button>
+    <p id="output"></p>
+
+    <hr>
+
+    <!-- Input Event -->
+    <h3>Type something:</h3>
+    <input type="text" id="name-input" placeholder="Your name...">
+    <p>You typed: <span id="name-display"></span></p>
+
+    <hr>
+
+    <!-- Form Submit -->
+    <h3>Login Form (Submit Event):</h3>
+    <form id="login-form">
+        <input type="email" placeholder="Email" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
